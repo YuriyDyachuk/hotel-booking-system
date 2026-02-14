@@ -1,6 +1,27 @@
-
+# Environment
 .env
-.idea
 
-node_modules
-dist
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+mysql_data/
+
+# Composer
+/vendor/
+composer.lock
+
+# Temp files
+*.tmp
+*.cache
